@@ -3,7 +3,7 @@ all: build run ## build and run the code
 
 build: ## build the code
 	mkdir -p bin
-	gcc hello_world.c -o bin/hello-world
+	gcc src/hello_world.c -o bin/hello-world
 
 
 run: ## run the code
